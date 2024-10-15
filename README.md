@@ -1,4 +1,4 @@
-La aplicación "Port Scanner App" es una herramienta gráfica desarrollada en Python utilizando Tkinter. Su propósito principal es escanear los puertos abiertos de un host especificado a través de una URL. El programa incluye una interfaz gráfica de usuario (GUI) con varias características que facilitan la interacción y presentación de los resultados.
+La aplicación "Port Scanner App" es una herramienta gráfica desarrollada en Python utilizando Tkinter. Su propósito principal es escanear los puertos abiertos de un host especificado a través de una URL.<b> La finalidad es puramente didáctica</b>. El programa incluye una interfaz gráfica de usuario (GUI) con varias características que facilitan la interacción y presentación de los resultados.
 
 Estructura de la Interfaz
 Al abrir la aplicación, los usuarios son recibidos por una cabecera que incluye un título llamativo "PORT SCANNER" y una imagen centrada debajo del título. Esta imagen es un icono de lupa ("lupa.jpg"), que se ha redimensionado a 50x50 píxeles para encajar perfectamente en el diseño. La cabecera se coloca dentro de un marco (header_frame), que mantiene el título y la imagen organizados y visualmente atractivos.
@@ -32,7 +32,7 @@ Habilita el botón de parada.
 Resuelve la dirección IP del host.
 Llena una cola con los números de puertos a escanear (del puerto 79 al 9091 por defecto).
 Inicia los hilos que ejecutan el escaneo.
-El botón "Parar Escaneo" permite al usuario detener el escaneo en cualquier momento. Esto se logra estableciendo un evento de parada (stop_event), que los hilos chequean periódicamente para decidir si deben finalizar.
+El botón "Parar Escaneo" permite al usuario detener el escaneo en cualquier momento. Esto se logra estableciendo un evento de parada (stop_event), que los hilos chequean periódicamente para decidir si deben finalizar. <b>El desarrollador del código no se hace responsable de acciones maliciosas o beneficiosas realizadas por terceros</b>
 
 Usabilidad y Flexibilidad
 La aplicación es fácil de usar gracias a su interfaz intuitiva y sus componentes bien organizados. La adición de una cabecera con título e imagen mejora la experiencia del usuario al hacer la aplicación más profesional y atractiva. Además, el uso de múltiples hilos y una barra de progreso proporciona un escaneo eficiente y feedback continuo al usuario.
